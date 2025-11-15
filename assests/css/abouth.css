@@ -1,0 +1,233 @@
+
+body {
+  background-color: #f5e9d6;
+  overflow-x: hidden;
+}
+.photo.top img {
+       width: 664px;
+    height: 448px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+/* --- Section --- */
+.brewly-section {
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+
+/* --- Text --- */
+.sub-title {
+  color: #d15b2d;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.main-title {
+  color: #125534;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+      padding: 0px 230px;
+          text-transform: uppercase;
+}
+
+/* --- Image Layout --- */
+.images {
+    position: relative;
+    display: inline-block;
+    margin-top: 70px;
+}
+.brew-hd {
+    font-size: 29px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #18623b;
+}
+p.brew-par {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.photo {
+  border: 8px solid #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  /* border-radius: 10px; */
+  overflow: hidden;
+  position: absolute;
+}
+
+.photo img {
+  width: 340px;
+  display: block;
+}
+
+/* Top Image */
+.photo.top {
+  z-index: 2;
+  transform: rotate(2deg);
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%) rotate(2deg);
+      position: relative;
+}
+
+/* Bottom Image */
+.photo.bottom {
+    left: -160px;
+    bottom: -260px;
+    transform: rotate(-3deg);
+    z-index: 2;
+}
+
+
+.photo.bottom img {
+      width: 324px;
+    height: 445px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+#brewly .sticker {
+    top: -16px;
+    left: -114px;
+}
+#brewly .sticker img{
+  width: 150px;
+}
+/* --- Purple Sticker --- */
+.sticker {
+  position: absolute;
+  bottom: 28px;
+  left: 84px;
+  /* background-color: #6a48cc; */
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  transform: rotate(-8deg);
+  /* box-shadow: 0 4px 10px rgba(0,0,0,0.2); */
+  text-align: left;
+  z-index: 2;
+}
+.sticker.welcome-sticker img{
+  width: 220px;
+}
+/* --- Green Smiley Sticker --- */
+.sticker-green {
+    position: absolute;
+    bottom: -175px;
+    right: -50px;
+    width: 80px;
+    transform: rotate(8deg);
+}
+
+.sticker-green img {
+  width: 200px;
+  height: auto;
+  /* border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+}
+
+/* --- Green Eye Sticker --- */
+.sticker-eye {
+    position: absolute;
+    bottom: -282px;
+    left: 123px;
+    width: 80px;
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+
+
+
+
+.sticker-eye img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+}
+
+/* --- Decorative Lines --- */
+.wave {
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  border-radius: 5px;
+}
+.wave.red {
+    top: 10%;
+    right: -5%;
+    /* background-color: #f35b2c; */
+    transform: rotate(295deg);
+}
+.wave.red  img{
+  width: 80px;
+}
+.wave.blue img {
+  width: 80px;
+}
+.wave.blue {
+    top: 10%;
+    right: -9%;
+    /* background-color: #1c7efb; */
+    transform:rotate(15deg);
+}
+
+
+
+/* --- Animation --- */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1.2s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 32px;
+  }
+
+  .photo.top img {
+    width: 260px;
+  }
+
+  .photo.bottom img {
+    width: 200px;
+  }
+
+  .sticker {
+    font-size: 12px;
+  }
+
+  .sticker-eye {
+    bottom: -80px;
+    left: 40px;
+    width: 70px;
+  }
+
+  .sticker-green {
+    bottom: -60px;
+    right: -20px;
+    width: 60px;
+  }
+}

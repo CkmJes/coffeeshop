@@ -1,0 +1,15 @@
+.brew-section {
+    display: flex;
+    align-items: center;
+    padding-top:  65px;
+    /* justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 100px 10%;
+    position: relative; */
+
+}
+.firest-back img {
+    width: 200px;
+}
+

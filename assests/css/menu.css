@@ -1,0 +1,131 @@
+  /* SECTION */
+  .menu-section {
+    padding: 80px 20px 40px;
+    text-align: center;
+    position: relative;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.02)); */
+    background-color: #18623b;
+    background-image: url(../images/services.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 
+.overlay{
+    background-image: url(https://live.sociolib.com/brewly/wp-content/uploads/sites/24/2025/09/Square-pattern.png);
+}  */
+
+  .kicker{
+    color:#fff;
+    font-weight:600;
+    margin-bottom:8px;
+    font-size:20px;
+  }
+  .kicker.in-view {
+    padding-top: 150px;
+}
+
+  .headline{
+    color:#fff;
+    font-size:50px;
+    font-weight:800;
+    margin:0 0 36px;
+    letter-spacing:0.5px;
+  }
+
+  /* CARDS LAYOUT */
+  .menu-cards{
+    display:flex;
+    gap:26px;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:flex-start;
+  }
+
+  .card{
+        width: 380px;
+    background: #fff;
+    color: #111;
+    padding: 10px;
+    overflow:hidden;
+    box-shadow:0 8px 22px rgba(0,0,0,0.25);
+    transform:translateY(0);
+    transition:transform .25s ease;
+    display:flex;
+    flex-direction:column;
+  }
+  .card:hover{ transform:translateY(-10px) }
+
+  .card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    display:block;
+  }
+
+  .card-body{
+    padding:14px;
+    flex:1;
+    display:flex;
+    text-align: justify;
+    /* flex-direction:column; */
+    justify-content:space-between;
+  }
+
+  .card-title {
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 22px;
+    color: #18623b;
+}
+  .card-desc{ color:#000; font-size:16px; margin-bottom:10px; flex:1 }
+  .card-price {
+    color: #dd5d36;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+  /* BUTTON */
+  .menu-btn {
+       margin-top: 40px;
+    background: #f3bf4a;
+    border: 1px solid #000;
+    padding: 16px 37px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 rgba(6, 58, 37, 0.9);
+    box-shadow: 0px 7px 0px 0px #000;
+    margin-bottom:86px
+}
+
+  /* --- fade-in-up animation (initially hidden) --- */
+  .anim{
+    opacity:0;
+    transform:translateY(30px);
+  }
+
+  @keyframes fadeInUp {
+    from { opacity:0; transform:translateY(30px); }
+    to   { opacity:1; transform:translateY(0); }
+  }
+
+  /* when JS adds .in-view apply animation with individual delay */
+  .in-view{
+    animation-name: fadeInUp;
+    animation-duration: 650ms;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /* allow per-element delay via inline style or data-delay used by JS */
+  /* Responsive */
+  @media (max-width:860px){
+    .headline{ font-size:30px }
+    .card img{ height:200px }
+  }
+  @media (max-width:520px){
+    .menu-cards{ gap:18px }
+    .card{ width:92% }
+    .headline{ font-size:26px }
+  }
