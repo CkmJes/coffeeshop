@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brewly Coffee Section</title>
+  <link rel="stylesheet" href="assests/css/abouth.css" />
+  <link rel="stylesheet" href="assests/css/together.css" />
+  <link rel="stylesheet" href="assests/css/menu.css" />
+  <link rel="stylesheet" href="assests/css/brew.css" />
+  <link rel="stylesheet" href="assests/css/header.css" />
+  <link rel="stylesheet" href="assests/css/gallery.css" />
+  <link rel="stylesheet" href="assests/css/media.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+</head>
+<body id="order">
+
+  <!----------------header-section------------------>
+    <header class="navbar fade-in-down">
+
+  <nav id="navMenu">
+    <ul>
+      <li class="active"><a href="index.html">Home</a></li>
+
+      <li class="dropdown">
+        Pages <span class="arrow">&#9662;</span>
+        <ul class="dropdown-menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="">Reviews</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </li>
+
+      <!-- <li>Menu</li> -->
+      <li> <a href="location.html">Location</a></li>
+      <li><a href="order.html">Order</a></li>
+    </ul>
+  </nav>
+<div class="logo">
+    <img src="https://ckmjes.github.io/coffee/images/logo%20.png">
+  </div>
+  
+  <button class="mobile-toggle" id="mobileToggle">
+    ☰
+  </button>
+  <button class="reserve">Reserve Table</button>
+</header>
+
+
+  <main class="hero-section fade-in-down">
+    <!-- <span class="badge">Daily Dose of Coffee</span> -->
+    <div class="hero-title">
+      <h1>
+        Order
+
+      </h1>
+      <p class="subtitleone">
+     Ordering your favorite Brewly coffee has never been easier—choose your way, and we’ll handle the rest.
+      </p>
+    </div>
+    <div class="decor decor-right">
+      <img src="https://live.sociolib.com/brewly/wp-content/uploads/sites/24/2025/09/good-vibess.png">
+    </div>
+    <div class="decor decor-bottom">
+      <img src="https://live.sociolib.com/brewly/wp-content/uploads/sites/24/2025/09/sticker-3.png">
+    </div>
+
+     <button class="menu-btn">See the Menu</button>
+
+    <!-- Welcome blue sticker -->
+    <div  class="sticker welcome-sticker">
+      <!-- <svg width="140" height="48" viewBox="0 0 140 48">
+        <rect rx="20" width="140" height="48" fill="#3663ea"/>
+      </svg> -->
+      <!-- <img src="https://live.sociolib.com/brewly/wp-content/uploads/sites/24/2025/09/welcome.png">    <span class="sticker-text-welcome">WELCOME !</span> -->
+    </div>
+  </main>
+
+
+  <!-------------------------------order-------------------------->
+
+  <section class="order-section">
+    <div class="faq-subtitle">Quick HelpOrder Format</div>
+    <div class="faq-title">Two Easy Ways To<br> Get Your Coffee <br>From Brewly</div>
+    <div class="order-container">
+        <div class="ordercloumn">
+            <img src="https://live.sociolib.com/brewly/wp-content/uploads/sites/24/2025/09/icon-5.png" class="order-img">
+            <h3 class="order-title">Pickup Order</h3>
+            <p class="order-desc">Pick up your order directly from our café at your preferred time. Skip the line and enjoy coffee ready when you arrive.</p>
+            <button class="menu-btn">Grab Your Coffee</button>
+        </div>
+         <div class="ordercloumn">
+            <img src="https://live.sociolib.com/brewly/wp-content/uploads/sites/24/2025/09/icon-6.png" class="order-img">
+            <h3 class="order-title">Delivery Order</h3>
+            <p class="order-desc">Get your favorite Brewly coffee and snacks delivered right to your doorstep. Stay cozy at home while we bring the café to you.</p>
+            <button class="menu-btn">Get Coffee Delivery</button>
+        </div>
+    </div>
+  </section>
+
+  
+<!---------------section-details---------------->
+
+<section class="details-section">
+    <h2 class="headdetail">Need Help?</h2>
+    <div class="sectiondetail">
+        <div class="detailsec1">
+            <h2 class="numhead">01</h2>
+            <h4 class="headetail">Browse All Menu</h4>
+            <p class="detailpare">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit lorem</p>
+        </div>
+        <div class="detailsec1">
+            <h2 class="numhead">02</h2>
+            <h4 class="headetail">Place Your Order</h4>
+            <p class="detailpare">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit lorem</p>
+        </div>
+        <div class="detailsec1">
+             <h2 class="numhead">03</h2>
+            <h4 class="headetail">Make Secure Payment</h4>
+            <p class="detailpare">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit lorem</p>
+        </div>
+        <div class="detailsec1">
+            <h2 class="numhead">04</h2>
+            <h4 class="headetail">Enjoy Fresh Coffee</h4>
+            <p class="detailpare">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit lorem</p>
+        </div>
+    </div>
+</section>
+
+<!------------------------filter------------------->
+<section class="menu-section">
+    <div class="menu-subtitle">Menu Orders</div>
+    <div class="menu-title">Place Your Order<br>With Brewly</div>
+
+    <div class="menu-container">
+
+        <!-- FILTER BUTTONS -->
+        <div class="menu-filters">
+            <button class="filter-btn active" data-filter="coffee">Signature Coffee</button>
+            <button class="filter-btn" data-filter="drinks">Other Drinks</button>
+            <button class="filter-btn" data-filter="snacks">Pastries & Snacks</button>
+        </div>
+
+        <!-- MENU ITEMS -->
+        <div class="menu-items">
+
+            <!-- Coffee -->
+            <div class="menu-card" data-category="coffee">
+                <img src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg" />
+                <div>
+                    <div class="item-title">Espresso Shot</div>
+                    <div class="item-desc">Strong, rich, and full-bodied.</div>
+                    <div class="item-price">$3.00</div>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="menu-card" data-category="coffee">
+                <img src="https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg" />
+                <div>
+                    <div class="item-title">Latte Bliss</div>
+                    <div class="item-desc">Light espresso with creamy milk.</div>
+                    <div class="item-price">$4.50</div>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="menu-card" data-category="coffee">
+                <img src="https://images.pexels.com/photos/434213/pexels-photo-434213.jpeg" />
+                <div>
+                    <div class="item-title">Cappuccino Classic</div>
+                    <div class="item-desc">Bold espresso with frothy milk.</div>
+                    <div class="item-price">$5.00</div>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <!-- Other Drinks -->
+            <div class="menu-card" data-category="drinks">
+                <img src="https://images.pexels.com/photos/372798/pexels-photo-372798.jpeg" />
+                <div>
+                    <div class="item-title">Mocha Magic</div>
+                    <div class="item-desc">Espresso with pure chocolate.</div>
+                    <div class="item-price">$5.50</div>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <div class="menu-card" data-category="drinks">
+                <img src="https://images.pexels.com/photos/302347/pexels-photo-302347.jpeg" />
+                <div>
+                    <div class="item-title">Iced Americano</div>
+                    <div class="item-desc">Refreshing cold black coffee.</div>
+                    <div class="item-price">$4.00</div>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+            <!-- Snacks -->
+            <div class="menu-card" data-category="snacks">
+                <img src="https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg" />
+                <div>
+                    <div class="item-title">Chocolate Croissant</div>
+                    <div class="item-desc">Buttery pastry filled with chocolate.</div>
+                    <div class="item-price">$3.50</div>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--------------------reviews---------------------->
+<section class="reviews-section">
+    <div class="reviews-header">
+        <p class="subtitle">Customer Reviews</p>
+        <h2>WHAT OUR CUSTOMERS<br>ARE SAYING</h2>
+    </div>
+
+    <div class="reviews-wrapper">
+
+        <button class="arrow left"><i class="bi bi-arrow-left"></i></button>
+
+        <div class="reviews-container">
+
+            <div class="review-card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="profile">
+                    <img src="https://i.ibb.co/7RjJbdD/user1.png">
+                    <div>
+                        <h4>Adam S</h4>
+                        <span>Google</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="profile">
+                    <img src="https://i.ibb.co/jV0jw3B/user2.png">
+                    <div>
+                        <h4>Mike Lewis</h4>
+                        <span>Twitter</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="profile">
+                    <img src="https://i.ibb.co/7RjJbdD/user1.png">
+                    <div>
+                        <h4>John Doe</h4>
+                        <span>LinkedIn</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="profile">
+                    <img src="https://i.ibb.co/jV0jw3B/user2.png">
+                    <div>
+                        <h4>Sarah M</h4>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+            </div>
+             <div class="review-card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="profile">
+                    <img src="https://i.ibb.co/jV0jw3B/user2.png">
+                    <div>
+                        <h4>Sarah M</h4>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+            </div>
+             <div class="review-card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="profile">
+                    <img src="https://i.ibb.co/jV0jw3B/user2.png">
+                    <div>
+                        <h4>Sarah M</h4>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+            </div>
+             <div class="review-card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="profile">
+                    <img src="https://i.ibb.co/jV0jw3B/user2.png">
+                    <div>
+                        <h4>Sarah M</h4>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+            </div>
+             <div class="review-card">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="profile">
+                    <img src="https://i.ibb.co/jV0jw3B/user2.png">
+                    <div>
+                        <h4>Sarah M</h4>
+                        <span>Facebook</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="arrow right"><i class="bi bi-arrow-right"></i></button>
+    </div>
+</section>
+
+<!-- Bootstrap Icons CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+<!-- =================== -->
+<!-- FOOTER SECTION -->
+<!-- =================== -->
+
+<div class="footer">
+
+  <!-- =================== -->
+<!--  ORANGE VISIT US BOX -->
+<!-- =================== -->
+
+<div class="visit-section">
+
+    <div class="visit-title">Visit Us</div>
+
+    <div class="main-heading">
+        COME FOR THE COFFEE, STAY FOR THE CREW.  
+        WE ARE YOUR DAILY HANGOUT SPOT.
+    </div>
+
+    <div class="info-container">
+
+        <!-- Address -->
+        <div class="info-box">
+            <div class="info-title">
+                <span class="icon">📍</span>
+                ADDRESS:
+            </div>
+            <div class="info-text">
+                88 Brew Street,<br>
+                Melbourne VIC 3000,<br>
+                Australia
+            </div>
+        </div>
+
+        <!-- Opening Hours -->
+        <div class="info-box">
+            <div class="info-title">
+                <span class="icon">⏰</span>
+                OPENING HOURS:
+            </div>
+
+            <ul class="info-list info-text">
+                <li>Mon – Fri : 07.30 – 22.00</li>
+                <li>Sat : 09.00 – 00.00</li>
+                <li>Sun : 09.00 – 21.00</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+   <div class="footerclsa">
+    <!-- Logo -->
+    <div class="footer-logo">
+    <img src="https://ckmjes.github.io/coffee/images/logo%20.png">
+    </div>
+
+    <!-- Menu -->
+    <div class="footer-menu">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Location</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+        <div>📘</div>
+        <div>📸</div>
+        <div>✖</div>
+        <div>🎵</div>
+    </div>
+
+</div>
+</div>
+
+<!-- Bottom -->
+<div class="bottom-line">
+    <div>© SocioLib 2025. All Rights Reserved</div>
+    <div><a href="#">Privacy Policy</a></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="assests/js/script.js"></script>
+<script src="assests/js/menu.js"></script>
+<script src="assests/js/header.js"></script>
+</body>
+</html>
