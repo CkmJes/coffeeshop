@@ -109,8 +109,65 @@ nav{
 nav ul li {
     color: #000;
 }
-
-
+.order-container {
+    display: block !important;
+}
+.sectiondetail {
+    display: block;
+}
+.menu-items{
+    width: unset !important;
+}
+.order-section {
+    padding: 90px 20px !important;
+}
+.ordercloumn {
+    margin-bottom: 20px;
+}
+.details-section {
+    padding: 90px 20px;
+}
+.detailsec1{
+    width: unset !important;
+}
+.menu-filters {
+    flex-direction: column !important;  
+    margin-right: 5px !important;
+}
+#about .decor-bottom {
+    left: 262px !important;
+}
+.brewly-content {
+    padding-left: 0px;
+}
+.detailsec {
+    width: unset;
+    margin-bottom: 10px;
+}
+.left-side .img2 {
+    bottom: -350px !important;
+    left: -1px !important;
+}
+.video-icon {
+    top: 85% !important;
+    left: 222px !important;
+}
+.coffee-section {
+    padding: 60px 8%;
+}
+.sticker1 {
+    right: 169px;
+}
+.counter-container {
+    display: block;
+}
+.counter-box {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.blogcard {
+    padding: 80px 20px 0px;
+}
 
 
 
